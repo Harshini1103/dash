@@ -6,7 +6,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Restaurant</h2>
+      <h2 className="logo">YMH Restaurant Dashboard</h2>
       <ul className="nav-links">
         <li>
           <NavLink to="/" className="nav-link">
