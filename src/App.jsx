@@ -3,12 +3,15 @@ import Navbar from "./components/Navbar";
 import  Home  from "./components/Home";
 import Contact from "./components/Contact";
 import Menu from "./components/Menu";
+import Sidebar from "./components/Sidebar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App(){
   return(<>
 
      <BrowserRouter>
       <Navbar />
+      <Sidebar/>
+
       <div style={{ padding: "20px" }}>
         <Routes>
           <Route path="/" element={<Home />} />
